@@ -19,7 +19,8 @@ defmodule CommandAggregateRace.MixProject do
         :exconstructor,
         :eventstore,
         :commanded
-      ]
+      ],
+      mod: {Example.Application, []},
     ]
   end
 
